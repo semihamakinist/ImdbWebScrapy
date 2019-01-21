@@ -23,7 +23,7 @@ if __name__ == "__main__":
 #    url = "https://www.imdb.com/search/name?gender=male,female&ref_=nv_cel_m&start={}".format(start_number)        
     (sp_main, nextPageUrl) = tls.nexPage(tagName="div", tagInfoName="class", tagInfo="desc", url=url)
     
-    while nextPageUrl != None and start_number <5001:
+    while nextPageUrl != None and start_number <10001:
         
         celib_lists = tls.celibrity_list(sp_main)
         
