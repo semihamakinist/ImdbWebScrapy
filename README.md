@@ -4,3 +4,4 @@
 - BeautifulSoup
 - urllib
 - requests
+- Python 2.7
