@@ -1,6 +1,6 @@
 # ImdbWebScrapy
 
 ### Requirement Packets
-> BeautifulSoup
-> urllib
-> requests
+- BeautifulSoup
+- urllib
+- requests
